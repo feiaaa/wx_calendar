@@ -3,16 +3,16 @@
 
 ### 修改内容（2017年6月14日）
 来源：https://github.com/treadpit/wx_calendar
-###功能描述
-原来的版本是每月指定的日期标红。
-修改过的版本是：当日标红，同日不同月的，以红圈表示
-###修改位置
-util.js文件 加方法，module添加内容，能够输出当前日期的日，月
-css文件添加修改样式 .border-radius .pink-bg .pink-bd （原项目的line46）
-index文件修改语句（原项目的line19），判断哪种类型的日子，对于哪种css
-index.js 的data添加语句 （添加 util 里面的输出日月的语句）
-添加util
-###修改效果
+### 功能描述
+- 原来的版本是每月指定的日期标红。
+- 修改过的版本是：当日标红，同日不同月的，以红圈表示
+### 修改位置
+- util.js文件 加方法，module添加内容，能够输出当前日期的日，月
+- css文件添加修改样式 .border-radius .pink-bg .pink-bd （原项目的line46）
+- index文件修改语句（原项目的line19），判断哪种类型的日子，对于哪种css
+- index.js 的data添加语句 （添加 util 里面的输出日月的语句）
+- 添加util
+### 修改效果
 ![效果图](https://github.com/feiaaa/wx_calendar/blob/master/calendar.jpg)
 
 ### 诞生背景
